@@ -229,13 +229,13 @@ a:hover{
     width: 0;
   }
   .crew-img{
-    position: static;;
+    display: none;
   }
   .crew-img-pilot{
-    position: static;;
+    display: none;
   }
   .crew-img-engineer{
-    position: static;;
+    display: none;
   }
 }
 @@supports (backdrop-filter: blur(5em)) {
