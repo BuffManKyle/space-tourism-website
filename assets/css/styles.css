@@ -1,0 +1,249 @@
+body{
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #D0D6F9;
+}
+h1, h2, h3, h4, h6{
+  font-family: 'Bellefair', serif;
+}
+h1{
+  font-size: 9.375rem;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-align: center;
+}
+h2{
+  font-size: 6.25rem;
+  font-weight: lighter;
+  margin: 0
+}
+h3{
+  font-size: 3.5rem;
+  font-weight: lighter;
+  letter-spacing: 1.5;
+  color: #fff;
+}
+h4{
+  font-size: 2rem;
+  font-weight: lighter;
+}
+h5{
+  font-family:'Barlow Condensed', sans-serif;
+  font-size: 1.75rem;
+  letter-spacing: .29rem;
+  color: #D0D6F9;
+  font-weight: lighter;
+}
+h6{
+  font-size: 1.75rem;
+  color: #fff;
+}
+p{
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: .1rem;
+}
+a{
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: .17rem;
+  font-weight: lighter;
+}
+/* nav bar */
+.navbar-nav a{
+  margin: 10px 20px;
+}
+a:hover{
+  text-decoration: underline;
+}
+.navbar-nav a.active{
+  text-decoration: underline;
+}
+.navbar{
+  padding: 1% 0% 1% 1%;
+
+}
+.navbar-nav{
+  background: hsl(0 0% 0% .75);
+  backdrop-filter: blur(5em);
+  margin-left: 45%;
+  width: 100%;
+  padding: 1% 5%;
+}
+.nav-line{
+  position: absolute;
+  top: 5.8%;
+  left: 8%;
+  width: 43%;
+}
+/****************************front page tags***********************/
+.content-main{
+  padding: 15% 0;
+}
+.intro{
+  margin: 0 27%;
+  text-align: left;
+}
+.explore{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  border-style: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 4rem;
+  margin-left: 10%;
+}
+.explore:hover{
+  border-radius: 50%;
+  border-width: 50px;
+  border-style: solid;
+}
+/************** Destination page tag*****************/
+
+.destination-numbers{
+  color: grey;
+  font-weight: bolder;
+}
+.destination-heading{
+  color: white;
+  padding: 5% 10%;
+  text-align: left;
+}
+.image-planets{
+  margin: 0 28%;
+}
+.planets-stats{
+  padding: 4% 0;
+  text-align: left;
+}
+.planet-hr{
+  width: 25%;
+  height: 10px;
+  color: #D0D6F9;
+  border-style: solid none none none;
+  position: absolute;
+}
+.planet-info{
+  text-align: left;
+  padding: 2% 50% 2% 0;
+}
+.planets-stats p{
+  font-size: .875rem;
+  letter-spacing: 2.35;
+}
+/* planet page nav */
+
+.planet-nav-info{
+  color: white;
+}
+.planet-nav a.active{
+  text-decoration: underline;
+  color: white;
+}
+.planet-nav a{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: lighter;
+  color: #D0D6F9;
+  text-align: left;
+  padding-right: 2%;
+}
+.planet-padding{
+ padding-left: 10%;
+}
+
+/* Crew Page */
+
+.crew-info{
+  text-align: left;
+  padding-left: 10%;
+}
+.crew-info p{
+  padding-right: 38%;
+}
+.crew-img{
+  position: absolute;
+  top: 19%;
+  width: 30%;
+}
+.crew-img-pilot{
+  position: absolute;
+  top: 19%;
+  width: 34%;
+}
+.crew-img-engineer{
+  position: absolute;
+  top: 26%;
+  width: 35%;
+}
+.crew-tab{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border-style: none;
+}
+.crew-col{
+  margin: 15% 0 0 1%;
+  width: 6%;
+  padding: 0;
+}
+.crew-tab.active{
+  background-color: #fff;
+}
+/* technology pages */
+.tech-img{
+  text-align: right;
+  padding: 0 10% 0 0;
+}
+.technology-info{
+  text-align: left;
+  padding-right: 12%;
+  padding-left: 5%;
+}
+.tech-btn{
+  padding: 0 0 10% 90%;
+}
+.tech-button {
+  border-radius: 100%;
+  height: 4.6875rem;
+  width: 4.6875rem;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Bellefair', serif;
+}
+.tech-button:hover{
+  border-color: #fff;
+}
+.tech-button.active{
+  background-color: #fff;
+  color: black;
+  border-color: #fff;
+}
+
+/* media tags */
+@media (max-width: 1000px) {
+  .nav-line{
+    width: 0;
+  }
+  .crew-img{
+  top: 60%;
+  left: 54%;
+  }
+  .crew-img-pilot{
+    top: 55%;
+    left: 50%;
+  }
+  .crew-img-engineer{
+    top: 60%;
+    left: 50%;
+  }
+}
+@@supports (backdrop-filter: blur(5em)) {
+  .navbar-nav{
+    background: hsl(0 0% 100% .01);
+    backdrop-filter: blur(5em);
+  }
+}
