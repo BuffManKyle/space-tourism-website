@@ -229,16 +229,13 @@ a:hover{
     width: 0;
   }
   .crew-img{
-  top: 60%;
-  left: 54%;
+    position: static;;
   }
   .crew-img-pilot{
-    top: 55%;
-    left: 50%;
+    position: static;;
   }
   .crew-img-engineer{
-    top: 60%;
-    left: 50%;
+    position: static;;
   }
 }
 @@supports (backdrop-filter: blur(5em)) {
