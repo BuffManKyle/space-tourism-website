@@ -239,6 +239,9 @@ a:hover{
   .crew-img-engineer{
     display: none;
   }
+  .explore{
+    display: none;
+  }
 }
 @@supports (backdrop-filter: blur(5em)) {
   .navbar-nav{
